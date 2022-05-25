@@ -21,7 +21,8 @@ body{
     overflow: hidden;
     color: #797d7f;
     letter-spacing: 0.5px;
-    display: grid;
+    display: flex;
+    flex-direction: column;
    align-items: center;
    justify-content: center;
     background-color: deepskyblue;
@@ -49,8 +50,7 @@ body{
     overflow: hidden;
     box-shadow: 0 0 1.5rem rgba(0, 0, 0, 1.5);
     font-size: 1.3rem;
-    display: flexbox;
-    margin-left: 60px;
+    display: flex;
 }
 
 .number::before{
@@ -119,6 +119,10 @@ body{
     font-family: 'Grape Nuts', cursive;
     font-family: 'Macondo', cursive;
     font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
 }
 
 
